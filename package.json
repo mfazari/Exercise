@@ -1,0 +1,34 @@
+{
+  "name": "test-js-grad",
+  "version": "0.1.0",
+  "description": "Test for candidates",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --runInBand",
+    "postinstall": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stu-dev/test-js-grad.git"
+  },
+  "author": "Reach Labs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stu-dev/test-js-grad/issues"
+  },
+  "homepage": "https://github.com/stu-dev/test-js-grad#readme",
+  "devDependencies": {
+    "compare-versions": "^3.6.0",
+    "eslint": "^7.25.0",
+    "husky": "^6.0.0",
+    "jest": "^26.6.3",
+    "lint-staged": "^10.5.4",
+    "prettier": "^2.2.1",
+    "prettier-eslint": "^12.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  }
+}
